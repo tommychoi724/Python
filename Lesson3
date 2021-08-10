@@ -1,0 +1,10 @@
+def getPriceA():
+    a=12
+    return a
+getPriceA()
+print(getPriceA())
+
+def getPriceA():
+    global a
+getPriceA()
+print(getPriceA())
